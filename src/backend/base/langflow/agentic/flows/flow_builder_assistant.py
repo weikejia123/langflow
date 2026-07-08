@@ -540,6 +540,7 @@ async def get_graph(
         "system_prompt": FLOW_BUILDER_PROMPT,
         "tools": tools,
         "temperature": 0.1,
+        "max_iterations": 50,
     }
     if api_key_var:
         agent_config["api_key"] = api_key_var
