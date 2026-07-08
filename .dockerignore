@@ -1,12 +1,11 @@
-src/frontend/node_modules
-src/frontend/build
-src/frontend/coverage
-src/frontend/test-results
-src/frontend/playwright-report
-src/frontend/.dspy_cache
-**/.DS_Store
-**/__pycache__
-**/*.pyc
-**/.pytest_cache
-**/.venv
-**/.env
+# 构建时忽略的目录
+.git/
+.gitignore
+.gitattributes
+**/__pycache__/
+**/*.py[cod]
+**/*.pyo
+my-docs/
+my-docker/
+.dockerignore
+Dockerfile
